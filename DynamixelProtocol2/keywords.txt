@@ -1,0 +1,102 @@
+###########################################
+# Syntax Coloring Map For DynamixelProtocol2
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+Dynamixel	KEYWORD1
+RTS	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+# RTS Class
+RTSTransmission	KEYWORD2
+RTSReception	KEYWORD2
+
+# Dynamixel Class
+update_crc	KEYWORD2
+CalculateCRC_LAndCRC_H	KEYWORD2
+SendPacket	KEYWORD2
+ReceivePacket	KEYWORD2
+Ping	KEYWORD2
+Read	KEYWORD2
+Write	KEYWORD2
+findPos	KEYWORD2
+InformationErrorHandling	KEYWORD2
+ReceiveFullPacket	KEYWORD2
+PrintCurrentID	KEYWORD2
+PrintMotorData	KEYWORD2
+GetNumberOfParameters	KEYWORD2
+
+###########################################
+# Constants and Enumeration values (LITERAL1)
+###########################################
+
+ModelNumber	LITERAL1
+ModelInformation	LITERAL1
+FirmwareVersion	LITERAL1
+ServoID	LITERAL1
+BaudRate	LITERAL1
+ReturnDelayTime	LITERAL1
+DriveMode	LITERAL1
+OperatingMode	LITERAL1
+SecondaryID	LITERAL1
+ProtocolType	LITERAL1
+HomingOffset	LITERAL1
+MovingThreshold	LITERAL1
+TemperatureLimit	LITERAL1
+MaxVoltageLimit	LITERAL1
+MinVoltageLimit	LITERAL1
+PWMLimit	LITERAL1
+CurrentLimit	LITERAL1
+AccelerationLimit	LITERAL1
+VelocityLimit	LITERAL1
+MaxPosLimit	LITERAL1
+MinPosLimit	LITERAL1
+Shutdown	LITERAL1
+TorqueEnable	LITERAL1
+LED	LITERAL1
+StatusReturnLevel	LITERAL1
+RegisteredInstruction	LITERAL1
+HardwareErrStatus	LITERAL1
+VelocityIGain	LITERAL1
+VelocityPGain	LITERAL1
+PositionDGain	LITERAL1
+PositionIGain	LITERAL1
+PositionPGain	LITERAL1
+Feedforward2ndGain	LITERAL1
+Feedforward1stGain	LITERAL1
+BUSWatchdog	LITERAL1
+GoalPWM	LITERAL1
+GoalCurrent	LITERAL1
+GoalVelocity	LITERAL1
+ProfileAcceleration	LITERAL1
+ProfileVelocity	LITERAL1
+GoalPosition	LITERAL1
+RealtimeTick	LITERAL1
+Moving	LITERAL1
+MovingStatus	LITERAL1
+PresentPWM	LITERAL1
+PresentCurrent	LITERAL1
+PresentVelocity	LITERAL1
+PresentPosition	LITERAL1
+VelocityTrajectory	LITERAL1
+PositionTrajectory	LITERAL1
+PresentInputVoltage	LITERAL1
+PresentTemperature	LITERAL1
+IndirectAddress1	LITERAL1
+IndirectAddress2	LITERAL1
+IndirectAddress3	LITERAL1
+IndirectAddress26	LITERAL1
+IndirectAddress27	LITERAL1
+IndirectAddress28	LITERAL1
+IndirectData1	LITERAL1
+IndirectData2	LITERAL1
+IndirectData3	LITERAL1
+IndirectData26	LITERAL1
+IndirectData27	LITERAL1
+IndirectData28	LITERAL1
+
