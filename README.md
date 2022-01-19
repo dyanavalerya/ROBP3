@@ -12,7 +12,9 @@
 This project aims to have a user manipulate a robotic arm with a MyoBand, by using Bluetooth communication. The user attempts to move the end-effector, and based on that information joint angles are computed with the help of inverse kinematics. The type of control mode is torque control which is achieved by mathematical modeling and sending translated PWM values to the motors. This type of controller allows the arm to respond to external forces, hold itself against gravity and pick up slightly heavy objects. This type of remote robot control is useful in harsh environments, where people cannot operate. 
 
 **Used tools:** Maple, the Robotics Toolbox by Peter Corke in MATLAB, C++, the MyoBand SDK
+
 **Resources:** Control Systems Engineering by Norman S. Nise, Introduction to Robotics: Mechanics and Control by John J. Craig. 
+
 **Used hardware:** Crust Crawler manipulator with Dynamixel motors, Arduino Mega, RS485 Breakout board. 
 
 **Folder description:**
